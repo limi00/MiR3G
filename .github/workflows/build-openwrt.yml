@@ -45,7 +45,7 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
-    - name: Checkout Master
+    - name: Checkout
       uses: actions/checkout@main
 
     - name: Initialization environment
