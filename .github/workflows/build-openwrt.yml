@@ -42,7 +42,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-18.04
-    if: github.event.repository.owner.id == github.event.sender.id
+    if: https://github.com/actions/virtual-environments/blob/ubuntu18/20201210.0/images/linux/Ubuntu1804-README.md
 
     steps:
     - name: Checkout Master
